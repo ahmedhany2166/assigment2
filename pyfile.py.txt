@@ -1,0 +1,7 @@
+from pathlib import Path
+str1=Path('file1.txt').read_text()
+str2=Path('file2.txt').read_text()
+book1=str1.split()
+book2=str2.split()
+
+common = set(book1).intersection( set(book2) )

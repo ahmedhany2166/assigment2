@@ -1,0 +1,5 @@
+#base image
+FROM python
+COPY . /ahmed
+WORKDIR /ahmed
+CMD python pyfile.py
